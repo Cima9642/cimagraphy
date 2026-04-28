@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300&family=Inter:wght@300;400;500&display=swap');
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: cimagraphy --default;
+}
+
+@theme {
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+
+  --color-primary: #EF9F27;
+  --color-primary-content: #0D0D0B;
+  --color-secondary: #2C2C2A;
+  --color-accent: #BA7517;
+  --color-neutral: #1a1a18;
+  --color-base-100: #0D0D0B;
+  --color-base-200: #1a1a18;
+  --color-base-300: #2C2C2A;
+  --color-base-content: #E8E6DE;
+}
+
+html { scroll-behavior: smooth; }

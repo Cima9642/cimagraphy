@@ -1,0 +1,16 @@
+---
+import '../styles/global.css';
+const { title, description } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en" data-theme="cimagraphy" style="background:#0D0D0B; color:#E8E6DE;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <title>{title} | Cimagraphy</title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
